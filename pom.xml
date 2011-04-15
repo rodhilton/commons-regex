@@ -7,9 +7,26 @@
     <groupId>commons-regex</groupId>
     <artifactId>commons-regex</artifactId>
     <version>0.1</version>
+    <packaging>jar</packaging>
+
+    <name>Commons Regex</name>
+    <description>Java library for common regular expression utility methods</description>
+    <url>https://github.com/rodhilton/commons-regex</url>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/rodhilton/commons-regex</url>
+    </scm>
 
     <dependencies>
-         <dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.8.2</version>
@@ -23,5 +40,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    
+
 </project>

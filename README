@@ -1,0 +1,5 @@
+Commons Regex is a pretty simple library that makes it easier to work with regular expressions in Java.
+
+It still uses the Pattern and Matcher classes from core Java, but provides handy utility methods for common operations.
+
+The library currently has very few utility methods, but I'd happily take requests, suggestions, and (of course) patches.
