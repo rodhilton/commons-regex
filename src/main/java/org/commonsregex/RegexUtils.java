@@ -61,5 +61,16 @@ public class RegexUtils {
 		}
 		return groups;
 	}
-	
+
+    public static String extract(String string, String regex, int group) {
+        return extract(string, Pattern.compile(regex), group);
+    }
+
+    public static String extract(String string, Pattern regex, int group) {
+        Matcher m = regex.matcher(string);
+        if(m.find()) {
+            return m.group(group);
+        }
+        return null;
+    }
 }
